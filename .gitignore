@@ -1,7 +1,17 @@
 .vscode/
 
+# Node.js dependencies
 node_modules/
+
+# Private environment configuration
 .env
+.env.*
+!.env.example
+
+# Local logs
+*.log
+
+# Operating system files
 .DS_Store
 
 *.key
